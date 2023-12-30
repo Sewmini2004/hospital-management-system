@@ -1,5 +1,8 @@
 import React from 'react'
 import {Cards2} from "../card/Cards2";
+import {Cards3} from "../card/Cards3";
+import {Cards4} from "../card/Cards4";
+import {Cards5} from "../card/Cards5";
 
 export class Slider extends React.Component<any, any>{
     render() {
@@ -16,22 +19,21 @@ export class Slider extends React.Component<any, any>{
                             <div className={'flex columns-3'}>
                                 <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
                                     <Cards2/>
-
                                 </div>
 
                                 <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
+                                    <Cards3/>
                                 </div>
 
                                 <div className={'mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
+                                    <Cards4/>
                                 </div>
                             </div>
 
                         </div>
 
                         <div className="hidden  ease-in-out" data-carousel-item="slide">
-                            <img src="src/assets/doctor-nurses-special-equipment.jpg"
+                            <img src="src/assets/hame_doctor.jpg"
                                  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             />
                         </div>
@@ -39,66 +41,23 @@ export class Slider extends React.Component<any, any>{
                         <div className="hidden ease-in-out" data-carousel-item="slide">
                             <div className={'flex columns-3'}>
                                 <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
+                                    <Cards5/>
 
                                 </div>
 
                                 <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
+                                    <Cards4/>
                                 </div>
 
                                 <div className={'mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
+                                    <Cards3/>
                                 </div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div>
-                        <div className="hidden  ease-in-out " data-carousel-item="slide ">
 
-                            <div className={'flex columns-3'}>
-                                <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
-
-                                </div>
-
-                                <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
-                                </div>
-
-                                <div className={'mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div className="hidden  ease-in-out" data-carousel-item="slide">
-                            <img src="src/assets/doctor-nurses-special-equipment.jpg"
-                                 className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            />
-                        </div>
-
-                        <div className="hidden ease-in-out" data-carousel-item="slide">
-                            <div className={'flex columns-3'}>
-                                <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
-
-                                </div>
-
-                                <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
-                                </div>
-
-                                <div className={'mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
-                                    <Cards2/>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
 
 
                 </div>

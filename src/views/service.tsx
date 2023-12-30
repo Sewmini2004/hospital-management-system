@@ -16,7 +16,10 @@ export class Service extends React.Component<any, any> {
                 </div>
 
                 <div className={'flex '}>
-                    <div className={'flex w-[80%] h-[550px] items-center justify-center mx-40'}>
+                    <div className={'flex-col w-[100%] h-[520px] items-center justify-center mx-40 '}>
+                        <h1 className={'text-4xl font-bold text-[#213360] my-2 p-8'}>Meet Our Doctors</h1>
+                        <p className={'text-xl font-bold text-[#213360]  p-6 '}>Our administration and support staff all have exceptional
+                            people skills and trained to assist you with all medical enquiries.</p>
                         <Slider/>
                     </div>
 
