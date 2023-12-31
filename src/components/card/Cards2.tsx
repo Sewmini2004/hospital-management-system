@@ -3,12 +3,13 @@ import {Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Stack
 import {CiFacebook} from "react-icons/ci";
 import {FiTwitter} from "react-icons/fi";
 import {FaInstagram} from "react-icons/fa6";
+import MyButton from "../button/myButton";
 
 export class Cards2 extends React.Component<any, any>{
     render() {
         return (
             <div>
-                <Card maxW='sm'>
+                <Card maxW='sm' className={''}>
                     <CardBody >
                         <Image
                             src='src/assets/doc (1).jpg'
