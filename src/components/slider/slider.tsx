@@ -11,13 +11,13 @@ export class Slider extends React.Component<any, any>{
         return (
             <div id="default-carousel" className="relative w-full" data-carousel="" >
 
-                <div className="relative h-65 overflow-hidden rounded-lg md:h-[650px]  shadow-lg shadow-gray-500/100  ">
+                <div className="relative h-65 overflow-hidden rounded-lg md:h-[710px]  shadow-lg shadow-gray-500/100  ">
 
                     <div>
                         <div className="hidden  ease-in-out " data-carousel-item="slide ">
 
                             <div className={'flex columns-3'}>
-                                <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5'}>
+                                <div className={' mx-10 p-5 shadow-2xl  rounded-[2rem] m-5 ' }>
                                     <Cards2/>
                                 </div>
 

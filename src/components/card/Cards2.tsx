@@ -8,9 +8,9 @@ import MyButton from "../button/myButton";
 export class Cards2 extends React.Component<any, any>{
     render() {
         return (
-            <div>
-                <Card maxW='sm' className={''}>
-                    <CardBody >
+            <div >
+                <Card maxW='sm'>
+                    <CardBody  >
                         <Image
                             src='src/assets/doc (1).jpg'
                             alt='Green double couch with wooden legs'

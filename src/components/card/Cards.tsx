@@ -27,7 +27,7 @@ export class Cards extends React.Component<any, any> {
                     <div>
                         <div className={'mx-40 p-5 shadow-2xl  rounded-[2rem] m-5 border-2'}>
                             <Card maxW='sm'>
-                                <CardBody className={'transition-none duration-500 transform hover:bg-teal-200  hover:shadow-2xl hover:border-8 border-gray-200 hover:rounded-[2rem]   text-[#213360] hover:text-base '}>
+                                <CardBody className={' hover:bg-teal-200  hover:shadow-2xl '}>
                                     <div><FaHandHoldingHeart className={'w-14 h-14 '}/></div>
                                     <Stack mt='6' spacing='3' className={'text-[#213360]'}>
                                         <h1 className={'font-bold text-xl '}>Medical Advices & Check Ups</h1>
@@ -39,8 +39,7 @@ export class Cards extends React.Component<any, any> {
                         </div>
 
                         <div className={' mx-40 p-5 shadow-2xl  rounded-[2rem] m-5 border-2'}><Card maxW='sm'>
-                            <CardBody className={'transition-none duration-500 transform hover:bg-teal-200  hover:shadow-2xl hover:border-8 border-gray-200 hover:rounded-[2rem]   text-[#213360] hover:text-base '}>
-
+                            <CardBody className={' hover:bg-teal-200  hover:shadow-2xl '}>
                             <div><FaUserDoctor className={'w-14 h-14 '}/></div>
                                 <Stack mt='6' spacing='3'>
                                     <h1 className={'font-bold text-xl text-[#213360]' }>Trusted Medical Treatment</h1>
@@ -50,8 +49,7 @@ export class Cards extends React.Component<any, any> {
                         </Card></div>
 
                         <div className={'mx-40 p-5 shadow-2xl  rounded-[2rem] m-5 border-2'}><Card maxW='sm'>
-                            <CardBody className={'transition-none duration-500 transform hover:bg-teal-200  hover:shadow-2xl hover:border-8 border-gray-200 hover:rounded-[2rem]   text-[#213360] hover:text-base '}>
-
+                            <CardBody className={' hover:bg-teal-200  hover:shadow-2xl '}>
                             <div><FaAmbulance className={'w-14 h-14 '}/></div>
                                 <Stack mt='6' spacing='3'>
                                     <h1 className={'font-bold text-xl text-[#213360]'}>Emergency Help Available 24/7</h1>
@@ -65,8 +63,7 @@ export class Cards extends React.Component<any, any> {
                     <div>
                         <div className={' mx-20 p-5 shadow-2xl  rounded-[2rem] m-5 border-2'}>
                             <Card maxW='sm'>
-                                <CardBody className={'transition-none duration-500 transform hover:bg-teal-200  hover:shadow-2xl hover:border-8 border-gray-200 hover:rounded-[2rem]   text-[#213360]  '}>
-
+                                <CardBody className={' hover:bg-teal-200  hover:shadow-2xl '}>
                                 <div><GiMedicines className={'w-14 h-14 '}/></div>
                                     <Stack mt='6' spacing='3'>
                                         <h1 className={'font-bold text-xl text-[#213360] hover:text-base'}>Medical Research Professionals</h1>
@@ -77,8 +74,7 @@ export class Cards extends React.Component<any, any> {
                         </div>
 
                         <div className={' mx-20 p-5 shadow-2xl  rounded-[2rem] m-5 border-2'}><Card maxW='sm'>
-                            <CardBody className={'transition-none duration-500 transform hover:bg-teal-200  hover:shadow-2xl hover:border-8 border-gray-200 hover:rounded-[2rem]   text-[#213360] hover:text-base '}>
-
+                            <CardBody className={' hover:bg-teal-200  hover:shadow-2xl '}>
                             <div><AiFillMedicineBox className={'w-14 h-14 '}/></div>
                                 <Stack mt='6' spacing='3'>
                                     <h1 className={'font-bold text-xl text-[#213360]'}>Only Qualified Doctors</h1>
@@ -88,8 +84,7 @@ export class Cards extends React.Component<any, any> {
                         </Card></div>
 
                         <div className={' mx-20 p-5 shadow-2xl  rounded-[2rem] m-5 border-2'}><Card maxW='sm'>
-                            <CardBody className={'transition-none duration-500 transform hover:bg-teal-200  hover:shadow-2xl hover:border-8 border-gray-200 hover:rounded-[2rem]   text-[#213360] hover:text-base '}>
-
+                            <CardBody className={' hover:bg-teal-200  hover:shadow-2xl '}>
                             <div><FaHospitalUser className={'w-14 h-14 '}/></div>
                                 <Stack mt='6' spacing='3'>
                                     <h1 className={'font-bold text-xl text-[#213360]'}>Quality Care For Every Patient</h1>
