@@ -27,10 +27,13 @@ export class Service extends React.Component<any, any> {
 
                     </div>
 
-                    <div className={'flex '}>
-                        <div className={'flex justify-center items-end w-[100%] h-[280px] '}>
+                    <div className={'flex-col '}>
+                        <div className={'flex justify-start items-end w-[100%] h-[280px] p-20 '}>
+                            <p className={'flex text-3xl font-bold text-[#213360] mx-36'}>We Provide All Aspects Of Medical Practice For Your Whole Family!</p>
+
+                        </div>
+                        <div className={'flex justify-center items-start w-[80%]  '}>
                             <SizeAvatars />
-                            <p className={'text-2xl font-bold text-[#213360] mx-2 p-8'}>We Provide All Aspects Of Medical Practice For Your Whole Family!</p>
                         </div>
 
                     </div>

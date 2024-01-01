@@ -11,7 +11,7 @@ export class Slider extends React.Component<any, any>{
         return (
             <div id="default-carousel" className="relative w-full" data-carousel="" >
 
-                <div className="relative h-65 overflow-hidden rounded-lg md:h-[710px]  shadow-lg shadow-gray-500/100  ">
+                <div className="relative h-65 overflow-hidden rounded-lg md:h-[710px]  shadow-lg shadow-gray-500/100 bg-gray-300 ">
 
                     <div>
                         <div className="hidden  ease-in-out " data-carousel-item="slide ">
