@@ -31,7 +31,7 @@ export class Service extends React.Component<any, any> {
 
                     </div>
 
-                    <div className={'w-[100%] h-[580px] p-20'} >
+                    <div className={'w-[100%] h-[580px] p-20'}>
                         <div className={'flex justify-start items-end  p-20 '}>
                             <p className={' text-3xl font-bold text-[#213360] mx-17'}>We Provide All Aspects Of
                                 Medical Practice For Your Whole Family!</p>
@@ -44,26 +44,34 @@ export class Service extends React.Component<any, any> {
                     </div>
 
 
-
-                        <div className={'w-[50%] h-[400px] border-2 mx-40 p-7 rounded-lg shadow-lg shadow-gray-500/100'}>
+                    <div className={'w-[50%] h-[480px] border-2 mx-40 p-12 rounded-lg shadow-lg shadow-gray-500/100'}>
                         <div className={'flex flex-col justify-center '}>
                             <h1 className={'text-4xl font-bold text-[#213360] my-4 '}>Book An Appointment</h1>
                             <p className={'text-s text-[#213360]'}>Please feel welcome to contact our friendly
                                 reception staff with any general or medical enquiry.
                                 Our doctors will receive or return any urgent calls.</p>
                         </div>
-                        <div className={'flex flex-row justify-start my-10 gap-3 '}>
-                            <Input placeholder='Basic usage'/>
-                            <Input placeholder='Basic usage'/>
 
-                        </div>
+
+                        <div>
+                            <div className={'grid grid-cols-2 gap-4 justify-start my-10 gap-3 '}>
+                                <Input placeholder='Name :'/>
+                                <Input placeholder='Email :'/>
+                                <Input placeholder='Choose Doctor :'/>
+                                <Input placeholder='Phone :'/>
+                                <Input placeholder='Date :'/>
+                                <Input placeholder='Time :'/>
+
+                            </div>
+
 
                             <MyButton children={'Book Appointment'}/>
+                        </div>
+
+
 
                     </div>
-                    </div>
-
-
+                </div>
 
 
             </section>

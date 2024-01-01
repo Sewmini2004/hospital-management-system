@@ -9,7 +9,7 @@ export class About extends React.Component<any, any>{
                 <div className={'flex columns-2 w-[100%] h-[650px] mx-20'}>
 
                     <div className={'flex items-center '}>
-                        <div className={'flex-col  mx-20 space-y-3 text-[#213360] items-center'}>
+                        <div className={'flex-col  mx-20 space-y-6 text-[#213360] items-center'}>
                             <h1 className={'text-4xl font-bold '}>Improving The Quality Of Your Life Through Better Health</h1>
                             <p className={'text-m font-bold '}>Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and to be the first and best choice for healthcare.</p>
                             <p className={'text-m text-[#213360]'}>We will work with you to develop individualised care plans, including management of chronic diseases. We are committed to being the region’s premier healthcare network providing patient centered care that inspires clinical and service excellence.</p>
