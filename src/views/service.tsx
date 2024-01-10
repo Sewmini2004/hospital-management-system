@@ -2,9 +2,11 @@ import React from "react";
 import {Cards} from "../components/card/Cards";
 import {Slider} from "../components/slider/slider";
 import {SizeAvatars} from "../components/sizeavatars/sizeAvatars";
-import {Input} from "@chakra-ui/react";
+import {Input, Select} from "@chakra-ui/react";
 import MyButton from "../components/button/myButton";
-
+import BasicDatePicker from "../components/datePicker/datePicker";
+import {About} from "./about1";
+import {Appointment} from "./appointment";
 export class Service extends React.Component<any, any> {
     render() {
         return (
@@ -43,34 +45,16 @@ export class Service extends React.Component<any, any> {
 
                     </div>
 
-
-                    <div className={'w-[50%] h-[480px] border-2 mx-40 p-12 rounded-lg shadow-lg shadow-gray-500/100'}>
-                        <div className={'flex flex-col justify-center '}>
-                            <h1 className={'text-4xl font-bold text-[#213360] my-4 '}>Book An Appointment</h1>
-                            <p className={'text-s text-[#213360]'}>Please feel welcome to contact our friendly
-                                reception staff with any general or medical enquiry.
-                                Our doctors will receive or return any urgent calls.</p>
+                    <div className={'flex w-[100%] h-[800px] bg-gradient-to-r from-[#21cdc0] to-[#21cdc0] '}>
+                        <Appointment/>
+                        <div className={'flex flex-col items-center justify-center p-16 gap-y-4 '}>
+                            <h1 className={'text-3xl font-bold text-[#213360] '}>Helping Patients From Around The Globe!!</h1>
+                            <img src={'src/assets/doctor-nurses-special-equipment.jpg'} className={'w-[800px] h-[440px]'}/>
                         </div>
-
-
-                        <div>
-                            <div className={'grid grid-cols-2 gap-4 justify-start my-10 gap-3 '}>
-                                <Input placeholder='Name :'/>
-                                <Input placeholder='Email :'/>
-                                <Input placeholder='Choose Doctor :'/>
-                                <Input placeholder='Phone :'/>
-                                <Input placeholder='Date :'/>
-                                <Input placeholder='Time :'/>
-
-                            </div>
-
-
-                            <MyButton children={'Book Appointment'}/>
-                        </div>
-
-
-
                     </div>
+
+
+
                 </div>
 
 
