@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-[![tailwind react admin template](public/img.png)](https://react-demo.tailadmin.com/)
+[![tailwind react admin template](src/assets/img.png)](https://react-demo.tailadmin.com/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
