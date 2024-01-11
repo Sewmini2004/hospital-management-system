@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./views/home"
 import {About} from "./views/about1";
 import {Service} from "./views/service";
+import {Medicine} from "./views/medicine";
 class App extends React.Component<any, any> {
     render() {
         return (
@@ -14,6 +15,7 @@ class App extends React.Component<any, any> {
                     <Home/>
                     <About/>
                     <Service/>
+                    <Medicine/>
                 </BrowserRouter>
             </div>
 
